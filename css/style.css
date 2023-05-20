@@ -71,3 +71,9 @@ main {
 .card-btn-wrapper .btn-three {
   color: var(--bg-three);
 }
+
+.card-btn-wrapper .btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: #fff 1px solid;
+}

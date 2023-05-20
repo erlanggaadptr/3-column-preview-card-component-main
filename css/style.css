@@ -22,7 +22,6 @@ main {
   max-width: 60rem;
   align-items: center;
   border-radius: 10px;
-  overflow: scroll;
   margin: 2rem;
 }
 

@@ -9,6 +9,13 @@
   --secondary-font: 'Big Shoulders Display', sans-serif;
 }
 
+.btn {
+  padding: 1rem 2rem;
+  background-color: var(--bg-h-btn-col);
+  text-decoration: none;
+  border-radius: 50px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;

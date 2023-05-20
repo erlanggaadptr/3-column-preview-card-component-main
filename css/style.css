@@ -11,3 +11,63 @@ body {
 p {
   font-size: var(--font-size);
 }
+
+main {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  max-width: 55rem;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+.card {
+  padding: 3rem;
+  color: #fff;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.card-one {
+  background-color: var(--bg-one);
+}
+.card-two {
+  background-color: var(--bg-two);
+}
+.card-three {
+  background-color: var(--bg-three);
+}
+
+.card-text-wrapper {
+  align-items: inherit;
+  justify-content: inherit;
+  gap: 2rem;
+}
+
+.card-text-wrapper h1 {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-text-wrapper p {
+  line-height: 2;
+  font-weight: 400;
+}
+
+.card-btn-wrapper .btn-one {
+  color: var(--bg-one);
+}
+.card-btn-wrapper .btn-two {
+  color: var(--bg-two);
+}
+.card-btn-wrapper .btn-three {
+  color: var(--bg-three);
+}

@@ -4,13 +4,15 @@
   --bg-three: hsl(179, 100%, 13%);
   --p-col: hsla(0, 0%, 100%, 0.75);
   --bg-h-btn-col: hsl(0, 0%, 95%);
-  --font-size: 15px;
+  --font-size: 0.9375rem;
   --primary-font: 'Lexend Deca', sans-serif;
   --secondary-font: 'Big Shoulders Display', sans-serif;
 }
 
 .btn {
+  display: inline-block;
   padding: 1rem 2rem;
+  border: #fff 1px solid;
   background-color: var(--bg-h-btn-col);
   text-decoration: none;
   border-radius: 50px;

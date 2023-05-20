@@ -8,3 +8,12 @@
   --primary-font: 'Lexend Deca', sans-serif;
   --secondary-font: 'Big Shoulders Display', sans-serif;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

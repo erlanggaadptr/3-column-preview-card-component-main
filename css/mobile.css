@@ -1,6 +1,5 @@
 .cards {
   flex-direction: column;
-  overflow: scroll;
 }
 
 .card {

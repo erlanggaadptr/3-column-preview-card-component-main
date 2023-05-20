@@ -1,0 +1,7 @@
+.cards {
+  flex-direction: column;
+}
+
+.card {
+  gap: 2rem;
+}

@@ -19,10 +19,10 @@ main {
 }
 
 .cards {
-  max-width: 55rem;
+  max-width: 60rem;
   align-items: center;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: scroll;
   margin: 2rem;
 }
 
